@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ibraheem Malik - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Ibraheem Malik
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          ibraheem.malik.work@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +1-647-688-7334
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+           <a class="topmenu" href="#projects">Projects</a>
+           <a class="topmenu" href="#recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://media.licdn.com/dms/image/v2/D5603AQEWvDn1nTv_Cw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1715194598425?e=2147483647&v=beta&t=OUKJJiIp4vhBbvLojSzGiw-iPiMRALK_C3iByho0QWo"  class="profile_image"/> 
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Ibraheem Malik! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am a Finance Major. You must have found this page through a link or my Linkedin.
+            I coded this page using HTML, CSS and some JavaScript. Im currently learning about this to
+            become an AI developer. This is a webpage to display my skills and info I have learned.
+            I am also great at financial analysis, modeling and using other programs such as 
+            python and SQL. (Feb 27 2025)
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <!-- Add more skills here -->
+
+        <div class="skill">
+            <img src="https://i0.wp.com/junilearning.com/wp-content/uploads/2020/06/python-programming-language.webp?fit=1920%2C1920&ssl=1"/>
+            <h6>python</h6>
+            <p>4 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_lTeBk0QdOhzcE4vM82jU6DESzpm27PmiGA&s"/>
+            <h6>SQL</h6>
+            <p>3 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="https://blog.leonhassan.co.uk/content/images/2019/09/css3-1.svg"/>
+            <h6>CSS</h6>
+            <p>3 years experience</p>
+          </div>  
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Generative AI</h3>
+            <ul>
+              <li>Used generative AI for demand planning, financial planning and to create AI ChatBots. </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Machine Learning</h3>
+            <ul>
+              <li>Used Juptyer notebook to understand how machine learning is used in financial plannning. Using various instances and sample data to predict the next trend.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Automation of a business process</h3>
+            <ul>
+              <li>Used an RPA software and changed a 2 day process into 10 minutes.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had the pleasure of going to school with Ibraheem, 
+          and throughout that time, I witnessed firsthand his dedication, strong work ethic, and natural leadership abilities.
+          Ibraheem's consistently stood out as he has a unique combination of being goal-oriented while always looking for ways to help those around him. 
+          eager to help those around him.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Ibraheem is a quick learner who constantly looks for new and better ways of working.
+            His go-getter attitude, helpfulness, and reliability brings value to both his team and those around him. 
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          2022 North America Intern of the year
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thank you for your input!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
