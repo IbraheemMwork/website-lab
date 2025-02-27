@@ -241,7 +241,7 @@ h2 {
 
 .popup {
   width:400px;
-  background-color: #e8bcf0;
+  background-color: #c0f7ff;
   border-radius: 3mm;
   top: 50%;
   left:50%;
@@ -258,8 +258,8 @@ h2 {
 
 .popup button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #0077ff;
+  color: #0077ff;
   display: block;
   border-radius: 6px;
   text-align: center;
