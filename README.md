@@ -1,4 +1,5 @@
-# progress
-progress of my skills
+# Website Lab project
 
-you can click the pages link to see my website!
+This lab purpose was to build a static website. The whole purpose was to showcase our skills so far. 
+
+You can click the pages link to see my portfolio. 
